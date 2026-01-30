@@ -45,6 +45,7 @@ export const CATEGORY_GROUPS: Record<string, string[]> = {
     'Hem - Övrigt',
     'Möbler',
     'Verktyg - Övrigt',
+    'Avbetalning/Amortering',
   ],
   'Mat & Dryck': ['Livsmedel', 'Restaurangbesök', 'Alkohol'],
   'Transport': ['Bensin/bränsle', 'Bil', 'Buss/tåg', 'Parkering'],
@@ -53,7 +54,6 @@ export const CATEGORY_GROUPS: Record<string, string[]> = {
   'Barn & Familj': ['Barnomsorg', 'Presenter'],
   'Hälsa': ['Sjukvård/medicin'],
   'Husdjur': ['Husdjur'],
-  'Ekonomi': ['Avbetalning/Amortering'],
   'Övrigt': ['Allmänt', 'Elektronik', 'Förbrukningsvaror', 'Livet - Övrigt', 'Tjänster'],
 };
 
@@ -67,7 +67,6 @@ export const CATEGORY_GROUP_COLORS: Record<string, string> = {
   'Barn & Familj': '#ec4899',
   'Hälsa': '#ef4444',
   'Husdjur': '#84cc16',
-  'Ekonomi': '#6366f1',
   'Övrigt': '#64748b',
 };
 
