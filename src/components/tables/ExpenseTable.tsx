@@ -125,14 +125,7 @@ export function ExpenseTable({ expenses, onDeleteExpense }: ExpenseTableProps) {
                   className={`${idx % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-gray-100`}
                 >
                   <td className="px-4 py-3">{formatDisplayDate(expense.date)}</td>
-                  <td className="px-4 py-3">
-                    <span>{expense.description}</span>
-                    {expense.subcategory && (
-                      <span className="ml-2 text-xs bg-gray-200 px-2 py-0.5 rounded">
-                        {expense.subcategory}
-                      </span>
-                    )}
-                  </td>
+                  <td className="px-4 py-3">{expense.description}</td>
                   <td className="px-4 py-3">{expense.category}</td>
                   <td className="px-4 py-3 text-right font-medium">
                     {formatCurrency(expense.cost, expense.currency)}
